@@ -6,6 +6,10 @@ import {
   Redirect
 } from "react-router-dom";
 import React, { Component } from "react";
+import Sports from './pages/Sports'
+import Events from './pages/Events'
+import Outcomes from './pages/Outcomes'
+import Home from './pages/Home'
 
 function App() {
   return (
