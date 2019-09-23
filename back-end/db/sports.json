@@ -1,0 +1,445 @@
+{
+  "pgatePath": "overview/inrunning/transitions",
+  "sports": [
+    {
+      "id": 964500,
+      "epId": 22877,
+      "desc": "Rugby Union",
+      "pos": 1,
+      "ne": 10,
+      "eic": 10,
+      "v": false,
+      "mc": true,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": false,
+      "marketTypes": [
+        {
+          "mtId": 111,
+          "pos": 1,
+          "desc": "2 Way Handicap ",
+          "mtDesc": "2 Way Handicap",
+          "couponName": "template_b1",
+          "headers": ["1", "2"],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Regular Time",
+              "pIds": [218, 350],
+              "config": { "filter": "ALL" }
+            }
+          ]
+        },
+        {
+          "mtId": 112,
+          "pos": 2,
+          "desc": "To Win",
+          "mtDesc": "To Win",
+          "couponName": "template_a",
+          "headers": ["1", "X", "2"],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Regular Time",
+              "pIds": [218, 350],
+              "config": { "filter": "ALL" }
+            }
+          ]
+        },
+        {
+          "mtId": 113,
+          "pos": 3,
+          "desc": "Total Points U/O ",
+          "mtDesc": "Total Points U/O",
+          "couponName": "template_b1",
+          "headers": ["Under", "Over"],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Regular Time",
+              "pIds": [218, 350],
+              "config": { "filter": "ALL" }
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "id": 281791210,
+          "desc": "Rugby World Cup Matches",
+          "pos": 2,
+          "events": [
+            {
+              "id": 1106323800,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 444068710,
+              "sport_id": 964500,
+              "desc": "England v Tonga",
+              "oppADesc": "England",
+              "oppAId": 27139400,
+              "oppBDesc": "Tonga",
+              "oppBId": 6215700,
+              "time": 1569147300000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1106323800,
+                "sId": 964500,
+                "clk": "54:26",
+                "dsc": "2H",
+                "oaId": 27139400,
+                "obId": 6215700,
+                "code": 353,
+                "periodKey": "2H",
+                "sTs": 1569147300000,
+                "cal": true,
+                "run": true,
+                "act": 0,
+                "scrA": 21,
+                "scrB": 3,
+                "addresses": {
+                  "comment": "/scoreboard/board/1106323800/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/964500/1106323800",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/964500/1106323800",
+                  "stats": "/scoreboard/board/1106323800/stats",
+                  "timeline": "/scoreboard/board/1106323800/timeline",
+                  "overviewComment": "/scoreboard/board/1106323800/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "bos": 2,
+                "bog": 0
+              },
+              "markets": [
+                {
+                  "id": 154224646,
+                  "desc": "Handicap (-29.5)",
+                  "eid": 1106323800,
+                  "pid": 218,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 95000295,
+                  "cur": false,
+                  "next": false,
+                  "mtid": 111,
+                  "p": "Regular Time",
+                  "o": [
+                    {
+                      "oid": 68746130900,
+                      "d": "England -29.5",
+                      "sd": "-29.5",
+                      "cpid": 524305929926,
+                      "pr": "3/10",
+                      "prd": 1.3,
+                      "fdp": "1.3",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 68746131400,
+                      "d": "Tonga +29.5",
+                      "sd": "+29.5",
+                      "cpid": 524305929927,
+                      "pr": "11/5",
+                      "prd": 3.2,
+                      "fdp": "3.2",
+                      "h": false,
+                      "po": 3
+                    }
+                  ]
+                },
+                {
+                  "id": 154224649,
+                  "desc": "Handicap (-35.5)",
+                  "eid": 1106323800,
+                  "pid": 218,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 2500355,
+                  "cur": false,
+                  "next": false,
+                  "mtid": 111,
+                  "p": "Regular Time",
+                  "o": [
+                    {
+                      "oid": 68746131900,
+                      "d": "England -35.5",
+                      "sd": "-35.5",
+                      "cpid": 524305929928,
+                      "pr": "17/20",
+                      "prd": 1.85,
+                      "fdp": "1.85",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 68746132300,
+                      "d": "Tonga +35.5",
+                      "sd": "+35.5",
+                      "cpid": 524305929929,
+                      "pr": "4/5",
+                      "prd": 1.8,
+                      "fdp": "1.8",
+                      "h": false,
+                      "po": 3
+                    }
+                  ]
+                },
+                {
+                  "id": 156853398,
+                  "desc": "Handicap (-41.5)",
+                  "eid": 1106323800,
+                  "pid": 218,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 75550415,
+                  "cur": false,
+                  "next": false,
+                  "mtid": 111,
+                  "p": "Regular Time",
+                  "o": [
+                    {
+                      "oid": 69801488300,
+                      "d": "England -41.5",
+                      "sd": "-41.5",
+                      "cpid": 524305929930,
+                      "pr": "15/8",
+                      "prd": 2.875,
+                      "fdp": "2.875",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 69801488400,
+                      "d": "Tonga +41.5",
+                      "sd": "+41.5",
+                      "cpid": 524305929931,
+                      "pr": "4/11",
+                      "prd": 1.364,
+                      "fdp": "1.364",
+                      "h": false,
+                      "po": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "epId": 240,
+      "desc": "Football",
+      "pos": 2,
+      "ne": 100,
+      "eic": 25,
+      "v": false,
+      "mc": true,
+      "ncmc": 2,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 600,
+      "epId": 239,
+      "desc": "Tennis",
+      "pos": 3,
+      "ne": 50,
+      "eic": 20,
+      "v": false,
+      "mc": true,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 601600,
+      "epId": 227,
+      "desc": "Basketball",
+      "pos": 5,
+      "ne": 50,
+      "eic": 10,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 2100,
+      "epId": 2100,
+      "desc": "Ice Hockey",
+      "pos": 6,
+      "ne": 50,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 433100,
+      "epId": 226,
+      "desc": "Baseball",
+      "pos": 7,
+      "ne": 10,
+      "eic": 12,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 400,
+      "epId": 237,
+      "desc": "Golf",
+      "pos": 10,
+      "ne": 12,
+      "eic": 10,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": false,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1200,
+      "epId": 1200,
+      "desc": "Volleyball",
+      "pos": 15,
+      "ne": 50,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1100,
+      "epId": 1100,
+      "desc": "Handball",
+      "pos": 16,
+      "ne": 50,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 31400,
+      "epId": 62183210,
+      "desc": "Water Polo",
+      "pos": 68,
+      "ne": 50,
+      "eic": 50,
+      "v": false,
+      "mc": null,
+      "ncmc": 3,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": false,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1041200,
+      "epId": 431839110,
+      "desc": "eSports Counter-Strike",
+      "pos": 99,
+      "ne": 3,
+      "eic": 3,
+      "v": false,
+      "mc": null,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1041300,
+      "epId": 431839210,
+      "desc": "eSports DOTA 2",
+      "pos": 101,
+      "ne": 3,
+      "eic": 3,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1041800,
+      "epId": 1041800,
+      "desc": "eSports King of Glory",
+      "pos": 106,
+      "ne": 50,
+      "eic": 50,
+      "v": false,
+      "mc": null,
+      "ncmc": 3,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    }
+  ],
+  "slider_elements": [
+    { "id": 964500, "type": "Sport", "desc": "Rugby Union", "slug": null },
+    { "id": 100, "type": "Sport", "desc": "Football", "slug": null },
+    { "id": 600, "type": "Sport", "desc": "Tennis", "slug": null },
+    { "id": 601600, "type": "Sport", "desc": "Basketball", "slug": null },
+    { "id": 2100, "type": "Sport", "desc": "Ice Hockey", "slug": null },
+    { "id": 433100, "type": "Sport", "desc": "Baseball", "slug": null },
+    { "id": 400, "type": "Sport", "desc": "Golf", "slug": null },
+    { "id": 1200, "type": "Sport", "desc": "Volleyball", "slug": null },
+    { "id": 1100, "type": "Sport", "desc": "Handball", "slug": null },
+    { "id": 31400, "type": "Sport", "desc": "Water Polo", "slug": null },
+    { "id": 3, "type": "SportGroup", "desc": "eSports", "slug": "esports" }
+  ],
+  "total_number_of_events": 76,
+  "total_number_of_streamable_events": 0
+}
