@@ -4,6 +4,8 @@ To start back-end:
 ```
 cd sports-api
 bundle install
+rails db:migrate
+rails db:seed
 rails s -p=3001
 ```
 
