@@ -29,3 +29,5 @@ sports.each do |sport|
   end
   Sport.create(id: sport["id"], events: events, description: sport["desc"])
 end
+
+p "Database seeded successfully."
