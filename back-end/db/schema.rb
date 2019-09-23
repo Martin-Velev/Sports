@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_09_23_133250) do
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["sport_id"], name: "index_events_on_sport_id", unique: true
+    t.index ["sport_id"], name: "index_events_on_sport_id"
   end
 
   create_table "outcomes", force: :cascade do |t|
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2019_09_23_133250) do
     t.integer "scoreB"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["event_id"], name: "index_outcomes_on_event_id", unique: true
+    t.index ["event_id"], name: "index_outcomes_on_event_id"
   end
 
   create_table "sports", force: :cascade do |t|
