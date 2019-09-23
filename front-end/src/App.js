@@ -1,15 +1,10 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Redirect
-} from "react-router-dom";
-import React, { Component } from "react";
-import Sports from './pages/Sports'
-import Events from './pages/Events'
-import Outcomes from './pages/Outcomes'
-import Home from './pages/Home'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from "react";
+import Sports from "./pages/Sports";
+import Events from "./pages/Events";
+import Outcomes from "./pages/Outcomes";
+import Home from "./pages/Home";
 
 function App() {
   return (
