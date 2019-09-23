@@ -7,7 +7,6 @@ export function fetchSports() {
 }
 
 export function fetchEvents(sportId) {
-  console.log(sportId);
   return axios.get(`${BASE_URL}/sports/${sportId}`);
 }
 

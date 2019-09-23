@@ -9,7 +9,6 @@ export default class Events extends Component {
 
   componentDidMount() {
     fetchEvents(this.props.match.params["sportId"]).then(res => {
-      console.log(res.data);
       this.setState({ events: res.data });
     });
   }

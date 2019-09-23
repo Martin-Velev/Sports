@@ -10,14 +10,12 @@ export default class Outcomes extends Component {
   componentDidMount() {
     fetchOutcome(this.props.match.params["eventId"])
       .then(res => {
-        console.log(res)
         this.setState({
           outcome: res.data
         });
       })
       .catch(err => {
         this.setState({ outcome: {} });
-        console.log(err)
         
       });
   }

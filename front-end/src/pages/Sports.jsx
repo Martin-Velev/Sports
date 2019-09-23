@@ -9,7 +9,6 @@ export default class Sports extends Component {
 
   componentDidMount() {
     fetchSports().then(res => {
-      console.log(res);
       this.setState({
         sports: res.data
       });
