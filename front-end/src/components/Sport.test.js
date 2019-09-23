@@ -1,6 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import Sport from "../components/Sport";
+import Sport from "./Sport";
 import { BrowserRouter as Router } from "react-router-dom";
 
 it("renders correctly", () => {

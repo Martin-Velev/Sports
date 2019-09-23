@@ -1,15 +1,11 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import Event from "./Event";
+import Events from "./Events";
 import { BrowserRouter as Router } from "react-router-dom";
 
 it("renders correctly", () => {
   const tree = renderer
-    .create(
-      <Router>
-        <Event event={{ id: 1, description: "test Event" }} sportId={42} />
-      </Router>
-    )
+    .create(<Events match={{ params: { sportId: 42 } }} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
